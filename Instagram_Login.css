@@ -1,0 +1,99 @@
+*{
+    font-family: "Segoe UI Historic", "Segoe UI";
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+hr {
+    color: rgb(170, 11, 11);
+}
+
+div {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 500px;
+    height: 30px;
+    background-color: aquamarine;
+}
+
+
+input {
+    width: 400px;
+    height: 50px;
+    text-align: left;
+    border-radius: 15px;
+    border: 0.3px solid lightgray;
+    padding-left: 20px;
+    letter-spacing: 0.5px;
+}
+
+#user_details:hover {
+    border-radius: 0.3px solid black;
+}
+
+ #login {
+    background-color: #7aa2fa86;
+    color: white;
+    width: 420px;
+    height: 40px;
+    border-radius: 40px;
+    border: transparent;
+ }
+  #forget_pass {
+    background-color: transparent;
+    color: black;
+    width: 420px;
+    height: 40px;
+    border-radius: 40px;
+    border: transparent;
+ }
+
+ #log_facebook {
+     background-color: transparent;
+    color: black;
+    width: 420px;
+    height: 40px;
+    border-radius: 40px;
+    border: 0.3px solid lightgray;
+ }
+
+
+#create_account {
+     background-color: transparent;
+    color: #417CF8;
+    width: 420px;
+    height: 40px;
+    border-radius: 40px;
+    border: 0.3px solid #417CF8;
+ }
+
+ footer a {
+    
+    text-decoration: none;
+    color: gray;
+    font-weight: 200;
+ }
+
+#user_details:hover {
+    /* background-color: rgba(238, 237, 237, 0.349); */
+    border: 0.3px solid black;
+ }
+
+#password:hover {
+    /* background-color: rgba(238, 237, 237, 0.349); */
+    border: 0.3px solid black;
+ }
+
+#forget_pass:hover {
+    background-color: rgba(238, 237, 237, 0.7);
+ }
+
+ #log_facebook:hover {
+    background-color: rgba(238, 237, 237, 0.5);
+ }
+
+#create_account:hover {
+    background-color: rgba(238, 237, 237, 0.5);
+ }
