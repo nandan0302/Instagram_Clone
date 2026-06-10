@@ -2,20 +2,56 @@
     font-family: "Segoe UI Historic", "Segoe UI";
     font-weight: 600;
     text-align: center;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
+}
+main {
+    display: flex;
+}
+#insta_cont {
+    width: 950px;
+    height: 100%;
+    /* background-color: grey; */
+}
+
+#login_side {
+    width : 600px;
+    height: 100%;
+    border-left: 2px solid lightgray;
+    /* background-color: bisque; */
 }
 
 hr {
     color: rgb(170, 11, 11);
 }
 
+h3 {
+    text-align: left;
+    margin-left: 90px;
+}
+
+/* this gradient is made using gpt */
+.instagram-gradient {
+  background: linear-gradient(
+    45deg,
+    #f58529,
+    #feda77,
+    #dd2a7b,
+    #8134af,
+    #515bd4
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+/* ----------######---------- */
 div {
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 20px;
     width: 500px;
     height: 30px;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
 
@@ -70,11 +106,11 @@ input {
  }
 
  footer a {
-    
     text-decoration: none;
     color: gray;
     font-weight: 200;
- }
+    margin-right: 15px;
+}
 
 #user_details:hover {
     /* background-color: rgba(238, 237, 237, 0.349); */
@@ -87,13 +123,13 @@ input {
  }
 
 #forget_pass:hover {
-    background-color: rgba(238, 237, 237, 0.7);
+    background-color: rgba(238, 237, 237, 0.9);
  }
 
  #log_facebook:hover {
-    background-color: rgba(238, 237, 237, 0.5);
+    background-color: rgba(238, 237, 237, 0.65);
  }
 
 #create_account:hover {
-    background-color: rgba(238, 237, 237, 0.5);
+    background-color: rgba(238, 237, 237, 0.65);
  }
