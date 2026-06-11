@@ -123,13 +123,13 @@ input {
  }
 
 #forget_pass:hover {
-    background-color: rgba(238, 237, 237, 0.9);
+    background-color: rgba(224, 224, 224, 0.85);
  }
 
  #log_facebook:hover {
-    background-color: rgba(238, 237, 237, 0.65);
+    background-color: rgba(218, 218, 218, 0.6);
  }
 
 #create_account:hover {
-    background-color: rgba(238, 237, 237, 0.65);
+    background-color: rgba(216, 216, 216, 0.6);
  }
