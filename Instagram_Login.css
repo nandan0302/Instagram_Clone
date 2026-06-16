@@ -1,0 +1,158 @@
+*{
+    font-family: "Segoe UI Historic", "Segoe UI";
+    font-weight: 600;
+    text-align: center;
+    /* align-items: center;
+    justify-content: center; */
+}
+main {
+    display: flex;
+}
+#insta_cont {
+    width: 950px;
+    height: 100%;
+    /* background-color: grey; */
+}
+
+#login_side {
+    width : 600px;
+    height: 100%;
+    margin-top: 50px;
+    border-left: 1px solid lightgray;
+    /* background-color: #feda773f; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    align-items: center;
+
+    /* background-color: bisque; */
+}
+
+.login_box_content {
+    margin-bottom: 30px;
+}
+
+hr {
+    color: rgb(170, 11, 11);
+}
+
+h3 {
+    text-align: left;
+    margin-left: 90px;
+}
+
+/* this gradient is made using gpt */
+.instagram-gradient {
+  background: linear-gradient(
+    45deg,
+    #f58529,
+    #feda77,
+    #dd2a7b,
+    #8134af,
+    #515bd4
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+/* ----------######---------- */
+/* img{
+    border: 1px solid black;
+} */
+
+#insta_logo {
+    margin-top: 20px;
+    display: flex;
+    margin-left: 80px;
+}
+
+
+/* div {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+} */
+
+input {
+    width: 400px;
+    height: 50px;
+    text-align: left;
+    border-radius: 15px;
+    border: 0.3px solid lightgray;
+    padding-left: 20px;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+}
+
+#user_details:hover {
+    border-radius: 0.3px solid black;
+}
+
+ #login {
+    background-color: #7aa2fa86;
+    color: white;
+    width: 420px;
+    height: 40px;
+    border-radius: 40px;
+    border: transparent;
+ }
+  #forget_pass {
+    background-color: transparent;
+    color: black;
+    width: 420px;
+    height: 40px;
+    border-radius: 40px;
+    border: transparent;
+ }
+
+ #log_facebook {
+     background-color: transparent;
+    color: black;
+    width: 420px;
+    height: 40px;
+    border-radius: 40px;
+    border: 0.3px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+ }
+
+#create_account {
+     background-color: transparent;
+    color: #417CF8;
+    width: 420px;
+    height: 40px;
+    border-radius: 40px;
+    border: 0.3px solid #417CF8;
+ }
+
+ footer a {
+    text-decoration: none;
+    color: gray;
+    font-weight: 200;
+    margin-right: 15px;
+}
+
+#user_details:hover {
+    /* background-color: rgba(238, 237, 237, 0.349); */
+    border: 0.3px solid black;
+ }
+
+#password:hover {
+    /* background-color: rgba(238, 237, 237, 0.349); */
+    border: 0.3px solid black;
+ }
+
+#forget_pass:hover {
+    background-color: rgba(224, 224, 224, 0.85);
+ }
+
+ #log_facebook:hover {
+    background-color: rgba(218, 218, 218, 0.6);
+ }
+
+#create_account:hover {
+    background-color: rgba(216, 216, 216, 0.6);
+ }
